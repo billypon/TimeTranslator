@@ -1,0 +1,61 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:TimeZone.xml" caret="1512" fromTop="18" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.Designer.cs" caret="9593" fromTop="21" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:TimeZone.cs" caret="2658" fromTop="23" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="4507" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="11" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="7" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="36" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="28" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="26" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="340" fromTop="17" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="21" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="24" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="19" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="20" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="10" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="10" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.Designer.cs" caret="9593" fromTop="21" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="16" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="21" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="11" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="21" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="23" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="411" fromTop="30" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="4048" fromTop="20" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="3642" fromTop="15" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="3804" fromTop="19" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="4083" fromTop="20" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="3381" fromTop="10" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="3405" fromTop="12" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="3653" fromTop="22" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="3525" fromTop="18" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="4605" fromTop="25" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="4636" fromTop="30" />
+      <File id="79EBD230-D749-4FC1-B7F3-1A441048429C/f:frmMain.cs" caret="4648" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

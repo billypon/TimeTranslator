@@ -1,0 +1,18 @@
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\bin\Debug\TimeTranslator.exe
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\bin\Debug\TimeTranslator.pdb
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.frmMain.resources
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.Properties.Resources.resources
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.exe
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.pdb
+d:\documents and settings\pangshiwei\my documents\visual studio 2010\Projects\TimeTranslator\TimeTranslator\bin\Debug\TimeZone.xml
+X:\程序源码\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.exe
+X:\程序源码\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.pdb
+X:\程序源码\TimeTranslator\TimeTranslator\bin\Debug\TimeZone.xml
+X:\程序源码\TimeTranslator\TimeTranslator\bin\Debug\TimeTranslator.exe
+X:\程序源码\TimeTranslator\TimeTranslator\bin\Debug\TimeTranslator.pdb
+X:\程序源码\TimeTranslator\TimeTranslator\obj\x86\Debug\ResolveAssemblyReference.cache
+X:\程序源码\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.frmMain.resources
+X:\程序源码\TimeTranslator\TimeTranslator\obj\x86\Debug\TimeTranslator.Properties.Resources.resources
