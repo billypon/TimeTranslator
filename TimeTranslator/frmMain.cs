@@ -14,7 +14,11 @@ namespace TimeTranslator
 	{
 		private const string TextBoxDefault = "hh:mm";
 		private List<TimeZone> listDefault, listCustom;
-		public frmMain() { InitializeComponent(); }
+
+		public frmMain()
+		{
+			InitializeComponent();
+		}
 
 		private void frmMain_Load(object sender, EventArgs e)
 		{
@@ -28,7 +32,7 @@ namespace TimeTranslator
 			cbTransType.SelectedIndex = cbTimeZone.SelectedIndex = 0;
 			if (cbCustomZone.Items.Count != 0)
 				cbCustomZone.SelectedIndex = 0;
-			cbTimeType.SelectedIndex = 1;
+			cbTimeType.SelectedIndex = 0;
 			dtpMain.Value = DateTime.Today;
 
 			cbTimeZone.Focus();
@@ -48,7 +52,10 @@ namespace TimeTranslator
 			}
 		}
 
-		private void cbTimeType_SelectedIndexChanged(object sender, EventArgs e) { dtpMain.Visible = cbTimeType.SelectedIndex != 0; }
+		private void cbTimeType_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			dtpMain.Visible = cbTimeType.SelectedIndex == 0;
+		}
 
 		private void txtTime_Enter(object sender, EventArgs e)
 		{
@@ -132,22 +139,22 @@ namespace TimeTranslator
 				{
 					// 转换至
 					diff = TimeZone.GetDiffTimeSpan(TimeZone.defaultZone, zone);
-					text = "当地时间：\n";
+					text = "当地时间：";
 				}
 				else
 				{
 					// 转换自
 					diff = TimeZone.GetDiffTimeSpan(zone, TimeZone.defaultZone);
-					text = "本地时间：\n";
+					text = "本地时间：";
 				}
-				if (cbTimeType.SelectedIndex == 1)
+				if (cbTimeType.SelectedIndex == 0)
 				{
 					TimeSpan time = new TimeSpan(hour, minute, 0);
 					text += (new DateTime(dtpMain.Value.Ticks + time.Ticks)).Add(diff).ToString("yyyy-MM-dd HH:mm");
 				}
 				else
 				{
-					TimeSpan time = new TimeSpan(1,hour, minute, 0);
+					TimeSpan time = new TimeSpan(1, hour, minute, 0);
 					DateTime t1 = new DateTime(time.Ticks);
 					DateTime t2 = t1.Add(diff);
 					text = t2.ToString("HH:mm");
@@ -156,7 +163,7 @@ namespace TimeTranslator
 					else if (t1.Date > t2.Date)
 						text += "(前一天)";
 				}
-				MessageBox.Show(text, Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+				lblResult.Text = text;
 			}
 		}
 
@@ -170,7 +177,7 @@ namespace TimeTranslator
 		private void cbTransType_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			string text = "";
-			switch(cbTransType.SelectedIndex)
+			switch (cbTransType.SelectedIndex)
 			{
 				case 0:
 					text = "转换为当地时间";

@@ -31,6 +31,7 @@
 			this.flpMain = new System.Windows.Forms.FlowLayoutPanel();
 			this.label1 = new System.Windows.Forms.Label();
 			this.cbTransType = new System.Windows.Forms.ComboBox();
+			this.lblTips = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.cbTimeZone = new System.Windows.Forms.ComboBox();
 			this.cbCustomZone = new System.Windows.Forms.ComboBox();
@@ -41,7 +42,7 @@
 			this.txtTime = new System.Windows.Forms.TextBox();
 			this.btnNow = new System.Windows.Forms.Button();
 			this.btnTrans = new System.Windows.Forms.Button();
-			this.lblTips = new System.Windows.Forms.Label();
+			this.lblResult = new System.Windows.Forms.Label();
 			this.flpMain.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -61,6 +62,7 @@
 			this.flpMain.Controls.Add(this.txtTime);
 			this.flpMain.Controls.Add(this.btnNow);
 			this.flpMain.Controls.Add(this.btnTrans);
+			this.flpMain.Controls.Add(this.lblResult);
 			this.flpMain.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flpMain.Location = new System.Drawing.Point(0, 0);
 			this.flpMain.Name = "flpMain";
@@ -90,6 +92,18 @@
 			this.cbTransType.Size = new System.Drawing.Size(60, 20);
 			this.cbTransType.TabIndex = 2;
 			this.cbTransType.SelectedIndexChanged += new System.EventHandler(this.cbTransType_SelectedIndexChanged);
+			// 
+			// lblTips
+			// 
+			this.lblTips.AutoSize = true;
+			this.flpMain.SetFlowBreak(this.lblTips, true);
+			this.lblTips.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+			this.lblTips.ForeColor = System.Drawing.Color.DarkRed;
+			this.lblTips.Location = new System.Drawing.Point(140, 7);
+			this.lblTips.Margin = new System.Windows.Forms.Padding(3, 7, 3, 0);
+			this.lblTips.Name = "lblTips";
+			this.lblTips.Size = new System.Drawing.Size(0, 12);
+			this.lblTips.TabIndex = 11;
 			// 
 			// label2
 			// 
@@ -128,7 +142,7 @@
 			this.cbCustomZone.IntegralHeight = false;
 			this.cbCustomZone.Location = new System.Drawing.Point(3, 55);
 			this.cbCustomZone.Name = "cbCustomZone";
-			this.cbCustomZone.Size = new System.Drawing.Size(121, 20);
+			this.cbCustomZone.Size = new System.Drawing.Size(147, 20);
 			this.cbCustomZone.TabIndex = 3;
 			this.cbCustomZone.Visible = false;
 			// 
@@ -149,8 +163,8 @@
 			this.flpMain.SetFlowBreak(this.cbTimeType, true);
 			this.cbTimeType.FormattingEnabled = true;
 			this.cbTimeType.Items.AddRange(new object[] {
-            "时间",
-            "时间日期"});
+            "时间日期",
+            "时间"});
 			this.cbTimeType.Location = new System.Drawing.Point(74, 81);
 			this.cbTimeType.Name = "cbTimeType";
 			this.cbTimeType.Size = new System.Drawing.Size(72, 20);
@@ -214,17 +228,14 @@
 			this.btnTrans.UseVisualStyleBackColor = true;
 			this.btnTrans.Click += new System.EventHandler(this.btnTrans_Click);
 			// 
-			// lblTips
+			// lblResult
 			// 
-			this.lblTips.AutoSize = true;
-			this.flpMain.SetFlowBreak(this.lblTips, true);
-			this.lblTips.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-			this.lblTips.ForeColor = System.Drawing.Color.DarkRed;
-			this.lblTips.Location = new System.Drawing.Point(140, 7);
-			this.lblTips.Margin = new System.Windows.Forms.Padding(3, 7, 3, 0);
-			this.lblTips.Name = "lblTips";
-			this.lblTips.Size = new System.Drawing.Size(0, 12);
-			this.lblTips.TabIndex = 11;
+			this.lblResult.AutoSize = true;
+			this.lblResult.Location = new System.Drawing.Point(3, 193);
+			this.lblResult.Margin = new System.Windows.Forms.Padding(3, 4, 3, 0);
+			this.lblResult.Name = "lblResult";
+			this.lblResult.Size = new System.Drawing.Size(0, 12);
+			this.lblResult.TabIndex = 12;
 			// 
 			// frmMain
 			// 
@@ -260,6 +271,7 @@
 		private System.Windows.Forms.DateTimePicker dtpMain;
 		private System.Windows.Forms.Button btnNow;
 		private System.Windows.Forms.Label lblTips;
+		private System.Windows.Forms.Label lblResult;
 	}
 }
 
