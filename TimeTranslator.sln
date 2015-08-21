@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTranslator", "TimeTranslator\TimeTranslator.csproj", "{79EBD230-D749-4FC1-B7F3-1A441048429C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTranslator", "TimeTranslator.csproj", "{79EBD230-D749-4FC1-B7F3-1A441048429C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
